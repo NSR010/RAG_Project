@@ -51,6 +51,8 @@ RAG_Project/
 ├── .gitignore                       # Git exclusion rules
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project documentation
+```
+
 
 ## ⚙️ Local Setup & Installation
 
@@ -59,17 +61,22 @@ Follow these steps to run the project locally:
 **1. Clone the repository**
 git clone [https://github.com/Apparition_010_/MNNIT-Study-Mate.git](https://github.com/Apparition_010_/MNNIT-Study-Mate.git)
 cd MNNIT-Study-Mate
-2. Create and activate a virtual environment
+
+**2. Create and activate a virtual environment**
 python -m venv myvenv
 myvenv\Scripts\activate
-3. Install dependencies
+
+**3. Install dependencies**
 pip install -r requirements.txt
-4. Setup Environment Variables
+
+**4. Setup Environment Variables**
 Create a .env file in the root directory and add your API keys securely:
 GEMINI_API_KEY="your_gemini_api_key"
 PINECONE_API_KEY="your_pinecone_api_key"
 GROQ_API_KEY="your_groq_api_key"
-5. Start the FastAPI Backend
+
+**5. Start the FastAPI Backend**
 python Backend/backend2.py
-6. Start the Streamlit Frontend
+
+**6. Start the Streamlit Frontend**
 streamlit run Frontend/app2.py
