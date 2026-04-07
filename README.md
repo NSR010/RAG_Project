@@ -59,7 +59,7 @@ RAG_Project/
 Follow these steps to run the project locally:
 
 **1. Clone the repository**
-git clone [https://github.com/Apparition_010_/MNNIT-Study-Mate.git](https://github.com/Apparition_010_/RAG_Project.git)
+git clone [https://github.com/Apparition_010_/RAG_Project.git](https://github.com/Apparition_010_/RAG_Project.git)
 cd MNNIT-Study-Mate
 
 **2. Create and activate a virtual environment**
