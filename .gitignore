@@ -1,0 +1,49 @@
+# ==========================================
+# 1. SECURITY / SECRETS (SABSE ZAROORI)
+# ==========================================
+.env
+gmv.env
+*.env
+.env.example # (Isko hata sakte hain agar aap example push karna chahte hain)
+
+# ==========================================
+# 2. VIRTUAL ENVIRONMENT (HEAVY FOLDERS)
+# ==========================================
+myvenv/
+venv/
+env/
+.venv/
+
+# ==========================================
+# 3. PYTHON CACHES & COMPILED FILES
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# ==========================================
+# 4. PROJECT SPECIFIC DATA & INDEXES
+# ==========================================
+# PDFs aur raw data push nahi karna chahiye
+data/
+datas/
+bm25_encoder.json
+*.pdf
+
+# ==========================================
+# 5. ARCHIVES & LOGS
+# ==========================================
+*.zip
+*.tar.gz
+*.log
+*.sqlite3
+
+# ==========================================
+# 6. OS & IDE (VS CODE, WINDOWS, MAC)
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+# --- Frontend & UI ---
+streamlit>=1.30.0
+requests>=2.31.0
+
+# --- Backend & API Server ---
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
+python-dotenv>=1.0.1
+
+# --- AI Models & LLM Clients ---
+google-genai           # New SDK for Gemini (used in your retrieval code)
+google-generativeai    # For Gemini Embeddings (used in your ingestion code)
+groq>=0.5.0            # For Llama 3.1 Generation
+sentence-transformers>=2.2.2  # For Dense Embeddings (MiniLM)
+rank-bm25>=0.2.2       # For your custom BM25 Sparse Encoder
+
+# --- Vector Database ---
+pinecone-client[grpc]  # Pinecone with GRPC for faster performance
+pinecone-text          # Supporting library for hybrid search
+
+# --- Data Processing & NLP ---
+langchain-community>=0.0.20
+langchain-text-splitters>=0.0.1
+langchain-core>=0.1.25
+pymupdf>=1.23.0        # High-speed PDF parsing (PyMuPDF)
+numpy>=1.26.0
+scikit-learn>=1.3.2
