@@ -60,7 +60,6 @@ Follow these steps to run the project locally:
 
 **1. Clone the repository**
 git clone [https://github.com/NSR010/RAG_Project.git](https://github.com/NSR010/RAG_Project.git)
-cd MNNIT-Study-Mate
 
 **2. Create and activate a virtual environment**
 python -m venv myvenv
@@ -76,7 +75,7 @@ PINECONE_API_KEY="your_pinecone_api_key"
 GROQ_API_KEY="your_groq_api_key"
 
 **5. Start the FastAPI Backend**
-python Backend/backend2.py
+uvicorn Backend.backend2:app --reload
 
 **6. Start the Streamlit Frontend**
 streamlit run Frontend/app2.py
